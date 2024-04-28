@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+html {
+  height: 100vh;
+}
+
+
+body {
+  color: white;
+  background: #33373E;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.MuiTypography-root {
+  font-family: 'DM Sans', sans-serif;
+  padding: 0;
+}
