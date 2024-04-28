@@ -80,9 +80,10 @@ const TemplateContainer: React.FC = () => {
                 display={'flex'}
                 gap={'5px'}
               >
-                {params.value.map((item: string) => {
+                {params.value.map((item: string, index: number) => {
                   return (
                     <Chip
+                      key={index}
                       label={item}
                       sx={{
                         borderRadius: '8px',
