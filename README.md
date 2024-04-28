@@ -2,6 +2,7 @@
 
 The Web App TZ is a React-based application designed using Next.js, showcasing modern front-end techniques and state management using Redux.
 
+
 ## Technologies
 
 - **Next.js:** A React framework for production that provides hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more.
